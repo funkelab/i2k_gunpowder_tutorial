@@ -1,0 +1,1 @@
+-e git://github.com/funkelab/funlib.show.neuroglancer.git@afa7bf3f0cbf2126bbee75b3762130038a3b8e71#egg=funlib.show.neuroglancer
