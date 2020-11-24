@@ -7,7 +7,7 @@ Setup
 conda env create -n i2k_gunpowder --file environment.yaml
 conda activate i2k_gunpowder
 ```
-3. Install the `neuroglancer` helper script
+3. Install the `funlib` helper packages:
 ```
 pip install -r requirements.txt
 ```

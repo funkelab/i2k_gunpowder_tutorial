@@ -1,1 +1,2 @@
 -e git://github.com/funkelab/funlib.show.neuroglancer.git@afa7bf3f0cbf2126bbee75b3762130038a3b8e71#egg=funlib.show.neuroglancer
+-e git://github.com/funkelab/funlib.learn.torch.git@650c1e581186118711ce359dda153fdd0811d1cc#egg=funlib.learn.torch
