@@ -8,5 +8,9 @@
 *.zarr
 .vscode
 .coverage
+.ipynb_checkpoints
 build
 dist
+
+instance_segmentation/*checkpoint*
+semantic_segmentation/*checkpoint*
