@@ -3,6 +3,20 @@ import numpy as np
 from scipy.ndimage.filters import maximum_filter
 from scipy.ndimage.morphology import distance_transform_edt
 import mahotas
+import waterz
+
+
+def get_segmentation(affinities, threshold):
+    fragments = watershed_from_affinities(affinities)[0]
+    thresholds = [threshold]
+    segmentations = waterz.agglomerate(
+        affs=affinities.astype(np.float32),
+        fragments=fragments,
+        thresholds=thresholds,
+    )
+
+    segmentation = next(segmentations)
+    return segmentation
 
 
 def watershed_from_affinities(
