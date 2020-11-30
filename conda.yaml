@@ -54,7 +54,7 @@ dependencies:
     - entrypoints==0.3
     - fasteners==0.15
     - google-apitools==0.5.31
-    - gunpowder==1.1.5
+    - gunpowder==1.2.1
     - h5py==3.1.0
     - httplib2==0.18.1
     - idna==2.10
