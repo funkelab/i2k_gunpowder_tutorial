@@ -1,7 +1,0 @@
-num_classes: 3
-in_channels: 1
-num_fmaps: 16
-fmap_inc_factor: 5
-downsample_factors: [[2,2,2], [2,2,2]]
-activation: "ReLU"
-voxel_size: [4, 4, 4]
