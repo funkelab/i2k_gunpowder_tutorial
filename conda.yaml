@@ -47,6 +47,7 @@ dependencies:
     - bleach==3.2.1
     - chardet==3.0.4
     - cycler==0.10.0
+    - cython==0.29.21
     - daisy==0.2.1
     - decorator==4.4.2
     - defusedxml==0.6.0
@@ -114,8 +115,10 @@ dependencies:
     - testpath==0.4.4
     - tifffile==2020.11.18
     - tornado==5.1.1
+    - tqdm==4.53.0
     - traitlets==5.0.5
     - urllib3==1.26.2
+    - waterz==0.9.4
     - wcwidth==0.2.5
     - webencodings==0.5.1
     - widgetsnbextension==3.5.1
