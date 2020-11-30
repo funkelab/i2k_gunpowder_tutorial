@@ -1,11 +1,16 @@
 *.sw[pmno]
 *.hdf
 *.h5
-*.ipynb
 *.pyc
 *.egg-info
 *.dat
 *.lock
+*.zarr
+.vscode
 .coverage
+.ipynb_checkpoints
 build
 dist
+
+instance_segmentation/*checkpoint*
+semantic_segmentation/*checkpoint*
